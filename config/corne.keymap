@@ -35,7 +35,6 @@
    &kp LCTRL &kp LGUI &trans  &trans   &trans   &trans        &trans       &kp DOWN     &trans       &kp C_PP     &kp K_PREV   &kp K_NEXT
                               &trans   &trans   &kp SPACE     &kp RET      &trans       &trans
                         >;
-                        >;
                 };
                 raise_layer { // Layer 2
 // -----------------------------------------------------------------------------------------
