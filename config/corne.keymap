@@ -32,7 +32,7 @@
 // | CTRL | GUI |     |     |     |     |   |     | DWN |     | PLAY| PREV| NEXT |
 //                    | RSE |     | SPC |   | ENT | LWR |     |
                         bindings = <
-   &kp ESC   &kp trans  &kp trans  &kp trans   &kp trans   &bt BT_CLR    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp BSPC 
+  &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8     &kp N9     &kp N0     &kp BSPC
    &bt LSHFT &kp trans  &kp trans  &kp trans   &kp trans   &kp trans     &kp LEFT     &kp UP       &kp RIGHT    &kp K_UNDO   &kp K_REDO   &kp CAPS
    &kp LCTRL &kp LGUI   &kp trans  &kp trans   &kp trans   &kp trans     &kp trans    &kp DOWN     &kp trans    &kp C_PP     &kp K_PREV   &kp K_NEXT
                                    &kp trans   &kp trans   &kp SPACE     &kp RET      &kp trans    &kp trans
