@@ -10,6 +10,8 @@
         keymap {
                 compatible = "zmk,keymap";
 
+sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+
                 default_layer { // Layer 0
 // -----------------------------------------------------------------------------------------
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
