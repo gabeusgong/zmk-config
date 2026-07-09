@@ -22,7 +22,7 @@
    &kp LCTRL &kp Z &kp X  &kp C  &kp V  &kp B      &kp N   &kp M  &kp COMMA &kp DOT &kp FSLH &kp RGUI
                           &mo 2  &trans &kp SPACE  &kp RET &mo 1  &kp C_PP
                         >;
-                        sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
                 };
                 lower_layer { // Layer 1
 // -----------------------------------------------------------------------------------------
@@ -36,7 +36,7 @@
    &kp LCTRL &kp LGUI &trans  &trans   &trans   &trans        &trans       &kp DOWN     &trans       &kp C_PP     &kp K_PREV   &kp K_NEXT
                               &trans   &trans   &kp SPACE     &kp RET       &trans       &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
                 };
                 raise_layer { // Layer 2
 // -----------------------------------------------------------------------------------------
@@ -50,7 +50,7 @@
    &kp LCTRL &kp N6   &kp N7 &kp N8     &kp N9     &kp N0      &kp UNDER &kp PLUS   &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
                              &trans  &trans  &kp SPACE   &kp RET   &trans  &trans
                         >;
-                        sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+                        sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
                 };
         };
 };
