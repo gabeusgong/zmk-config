@@ -3,11 +3,11 @@
 / {
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder>;
+        sensors = <&right_encoder>;
         triggers-per-rotation = <20>;
     };
 
-    left_encoder: encoder_left {
+    right_encoder: encoder_right {
         compatible = "alps,ec11";
         a-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;   // black wire, P0.10
         b-gpios = <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;   // red wire, P0.09
