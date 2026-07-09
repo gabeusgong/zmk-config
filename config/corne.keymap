@@ -29,10 +29,12 @@
 // |  ESC |     |     |     |     |BTCLR|   | BT1 | BT2 | BT3 | BT4 | BT5 | BKSP |
 // | SHFT |     |     |     |     |     |   | LFT | UP  | RGT | UNDO| REDO| CAPS |
 // | CTRL | GUI |     |     |     |     |   |     | DWN |     | PLAY| PREV| NEXT |
-//BT_SEL 4 &kp BSPC
+//                    | RSE |     | SPC |   | ENT | LWR |     |
+                        bindings = <
+   &kp ESC   &trans   &trans  &trans   &trans   &bt BT_CLR    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp BSPC
    &kp LSHFT &trans   &trans  &trans   &trans   &trans        &kp LEFT     &kp UP       &kp RIGHT    &kp K_UNDO   &kp K_REDO   &kp CAPS
    &kp LCTRL &kp LGUI &trans  &trans   &trans   &trans        &trans       &kp DOWN     &trans       &kp C_PP     &kp K_PREV   &kp K_NEXT
-                              &trans   &trans   &kp SPACE     &kp RET      &trans       &trans
+                              &trans   &trans   &kp SPACE     &kp RET       &trans       &trans
                         >;
                         sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
                 };
